@@ -5,8 +5,33 @@
 
     #include "input_manage_verification.h" 
 
- 
-    
+	//Aunauqe ninguna de las funciones compartidas use estos tipos de datos es importante que esten los typedefs para el manejo grafico.
+	typedef struct{ 
+			double x,y; 
+	}point_t;
+
+	typedef struct
+	{
+			point_t position;
+			double angle;
+	}robot_t;
+
+	typedef struct
+	{
+			unsigned int width;
+			unsigned int height;
+			bool * floor_array;
+	}floor_t;
+
+	typedef struct
+	{
+		   bool mode;
+		   long unsigned int tickcount;
+		   unsigned int robotcount;
+		   robot_t *robots;
+		   floor_t *piso;
+	}simul_t;
+
     #define DIRTY_FLOOR 0
     #define CLEAN_FLOOR 1  
 
