@@ -26,7 +26,7 @@
 
     #define MAX_FLOOR_HEIGHT	70
     #define MAX_FLOOR_WIDTH		100
-    #define MAX_NUM_ROBOTS		100
+    #define MAX_NUM_ROBOTS		1000
 
     
     int validate_simulation_info(user_input_t * user_input_data);

@@ -24,18 +24,18 @@
       </nativedebugger>
       <runprofile version="9">
         <runcommandpicklist>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 20 -n 100 -w 20 -mode  1</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 20 -n 100 -w 20 -mode  0</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 20 -n 1 -w 20 -mode  0</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 50 -n 10 -w 50 -mode  0</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 50 -n 100 -w 50 -mode  0</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 10 -n 100 -w 10 -mode  1</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 2 -n 1 -w 2 -mode  1</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 2 -n 1 -w 2 -mode  0</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 10 -n 1 -w 10 -mode  0</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 15 -n 3 -w 15 -mode  0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 15 -n 199 -w 15 -mode  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 15 -n 100 -w 15 -mode  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 15 -n 200 -w 15 -mode  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 15 -n 150 -w 15 -mode  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 15 -n 500 -w 15 -mode  0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 15 -n 500 -w 15 -mode  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 50 -n 1 -w 50 -mode  1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 50 -n 1 -w 50 -mode  0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -h 20 -n 2 -w 20 -mode  0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  -mode  0 -n 2 -h 20 -w 20 </runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" -h 15 -n 3 -w 15 -mode  0</runcommand>
+        <runcommand>"${OUTPUT_PATH}"  -mode  0 -n 2 -h 20 -w 20</runcommand>
         <rundir></rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
