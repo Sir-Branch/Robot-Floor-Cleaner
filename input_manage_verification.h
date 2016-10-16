@@ -18,14 +18,15 @@
 
     }user_input_t;
     
+	#define SIMU_MODE_GRAFIC	0
+	#define SIMU_MODE_ANALI		1
 
+    #define NOT_VALID_INPUT		-1
+    #define VALID_INPUT			0
 
-    #define NOT_VALID_INPUT -1
-    #define VALID_INPUT 0
-
-    #define MAX_FLOOR_HEIGHT 70
-    #define MAX_FLOOR_WIDTH 100
-    #define MAX_NUM_ROBOTS	100
+    #define MAX_FLOOR_HEIGHT	70
+    #define MAX_FLOOR_WIDTH		100
+    #define MAX_NUM_ROBOTS		100
 
     
     int validate_simulation_info(user_input_t * user_input_data);

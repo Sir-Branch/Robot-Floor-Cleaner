@@ -10,33 +10,6 @@
 #include "grafic_management.h"
 #include "allegro_start_shutdown.h"
 
-//No hace falta compartir estos typedef ya que las funciones en el .h no las emplean, y no queremos que los
-//que empleen simul_management las vean innecesariamente.
-typedef struct{ 
-		double x,y; 
-}point_t;
-
-typedef struct
-{
-		point_t position;
-		double angle;
-}robot_t;
-
-typedef struct
-{
-		unsigned int width;
-		unsigned int height;
-		bool * floor_array;
-}floor_t;
-
-typedef struct
-{
-		bool mode;
-		long unsigned int tickcount;
-		unsigned int robotcount;
-		robot_t *robots;
-		floor_t *piso;
-}simul_t;
 
 static floor_t * create_floor(unsigned int w, unsigned int h);
 static void destroy_floor(floor_t *floor_data);

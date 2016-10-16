@@ -155,7 +155,7 @@ int validate_simulation_info(user_input_t * user_input_data)
 		fprintf(stderr," Invalid range for number of robots\n");
 		status=NOT_VALID_INPUT;
 	}
-	else if(  user_input_data->mode >true ){//input debe ser tipo bool 0 o 1
+	else if(  user_input_data->mode != SIMU_MODE_GRAFIC && user_input_data->mode != SIMU_MODE_ANALI ){//input debe ser tipo bool 0 o 1
 		fprintf(stderr," Invalid input for mode Boolean input 0 or 1 \n");
 		status=NOT_VALID_INPUT;
 	}
